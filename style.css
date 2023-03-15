@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    display: flex;
+    background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% );
+}
+.container{
+    position: relative;
+    left: 560px;
+    justify-content: center;
+    height: 610px;
+    width: 340px;
+    background: #c4d1c6;
+    margin:60px 0 60px 0;
+    border: 1px solid white;
+    border-radius:19px;
+    filter: drop-shadow(1px 2px 10px);
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 110px 0 0 0;
+    font-size: 20px;
+}
+h4{
+    text-align: center;
+    font-family:sans-serif ;
+    font-size:12px ;
+    letter-spacing: 1px;
+    font-weight: 10px;
+    color:#304451;
+    position: relative;
+    top:-11px ;
+
+}
+.logo-img{
+    position:absolute;
+    width: 23%;
+    left: 130px;
+    top: 20px;
+
+}
+.login-form{
+    justify-content:first baseline;
+    position: relative;
+    left: 40px;
+
+}
+label{
+display: block;
+padding: 10px  0 10px 0 ;
+}
+input{
+    width:250px;
+    height: 25px;
+    background-color: #babcbd;
+    border-radius: 8px;
+}
+.tick1{
+    accent-color: rgb(121, 3, 22);
+    position: relative;
+    left:5px;
+    right: 110px;
+    margin: 20px 0 0 0;
+    border:2px black;
+    display: block;
+    width: 5%;
+}
+.remember{
+     position: relative;
+display: inline-block;
+left: 28px;
+bottom:30px ;
+font-family:sans-serif;
+font-size: 12px;
+font-weight: 20px;
+color:#1f2223;
+text-decoration-style: bold;
+}
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    position:relative;
+    left: 145px;
+    bottom: 66px;
+    text-decoration: underline;
+    font-weight: 15px;
+    color:#1f2223 ;
+}
+.btn{
+    width: 220px;
+    color: white;
+    height: 34px;
+    border-radius: 25px;
+    border: none;
+    background:linear-gradient(to right,rgb(1, 1, 16),rgb(35, 3, 35));
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+    margin: 5px 0 0 0;
+}
+.btn:hover{
+    background:linear-gradient(to right,rgb(0, 0, 0),rgb(73, 65, 73));
+}
+hr{
+    color: #46555a;
+    justify-content: center;
+    width: 85%;
+    border:solid rgb(45, 40, 40) 1px;
+    border-bottom: none;
+    position: relative;
+    right: 37px;
+    bottom: 30px;
+}
+.p2{
+    text-align: center;
+    position: relative;
+    left: 52px;
+    bottom: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 20px;
+    color: #152123;
+    background-color: #c4d1c6;
+    width: 67px;
+    padding: 0 45px 0 45px;
+
+}
+.btn-container{
+    position: relative;
+     bottom: 48px;
+     left :60px;
+
+}
+a{
+    display: block;
+    color: black;
+    background-color: #9bacb7;
+    text-decoration: none;
+
+}
+.facebook-btn{
+    width:70px;
+    height:25px;
+    display: flex;
+    position: relative;
+    top: 15px;
+    right: 35px;
+    padding-left: 30px;
+    text-align: left;
+
+   
+   
+}
+.google-btn{
+    display: flexbox;
+    width:70px;
+    height:25px;
+    text-align: left;
+    position: relative;
+    left:100px;
+    bottom: 10px;
+    padding-left: 30px;
+
+
+}
+.facebook-logo{
+    font-size: 1.1rem;
+    position: relative;
+    right: 23px;
+    top: 4px;
+}
+.face-p{
+    position: relative;
+    right: 18px;
+    top: 4px;
+
+}
+.google-logo{
+    font-size: 1.1rem;
+    position:relative;
+    right: 23px;
+    top: 4px;
+}
+.goo-p{
+    position: relative;
+    bottom: 16px;
+    left: 2px;
+
+}
+.account{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    margin-right: 190px;
+    padding: 10px 0 0 0;
+    
+}
+.sign-up{
+    text-align: center;
+    background: none;
+    font-family: sans-serif;
+    font-size: 13.5px;
+    font-weight: 30px;
+    color: rgb(3, 137, 227);
+    margin-right: 190px;
+}
+input:valid,input:focus{
+    border :1px solid rgb(24, 161, 196);
+}
+input:valid~span,input:focus~span{
+    color: rgb(24, 161, 196);
+    transform: translateX(10px)translateY(-7px);
+    border :1px solid rgb(24, 161, 196);
+}
+
+    
